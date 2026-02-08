@@ -1,0 +1,46 @@
+
+class Student:
+    def __init__(self,name,age):
+            self.name=name
+            self.age=age
+            print(self.name)
+            print(self.age) 
+s1=Student("joy",18)
+s2=Student("sam",29)
+s3=Student("sid",19)
+s4=Student("dhruv",17)
+s5=Student("samir",1000)
+s1.data()
+s1.display()
+
+class Faculty:
+    def data(Insaan):
+              Insaan.lecture=input("Which lecture? ")
+              
+    def display(Insaan):
+              print(Insaan.lecture)
+
+s2=Faculty()
+s2.data()
+s2.display()
+class faculty:
+    def __init__(nss,name,subject,salary):
+        nss.name="joy"
+        nss.subject="bashydb"
+        nss.salary=38293
+    def display(nss):
+        print(nss.name)
+        print(nss.subject)
+        print(nss.salary)
+    def greet(nss):
+        print("Welcome",nss.name)
+s1=faculty()
+print(s2.name)
+
+
+class Add:
+    def __init__(nss,a,b):
+        nss.a=a
+        nss.b=b
+        print(nss.a+nss.b)
+    a1=Add(7,3)
